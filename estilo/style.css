@@ -14,6 +14,7 @@ body {
     background: url(../imagens/fundo\ de\ concreto.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 main {
     height: 100vh;
@@ -38,5 +39,20 @@ section#tel {
     height: 443px;
 }
 section#socialbuttom {
-    
+    text-align: center;
+    transition: flex 0.5s ease;
+    background-size: cover;
+    background-position: center;
+}
+section#socialbuttom img {
+    width: 30px;
+    margin: 2px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+section#socialbuttom img:hover {
+    transform: translate( -2px, -2px);
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.637);
+    transition: trasform .05s, border 0.2s;
 }
