@@ -27,8 +27,8 @@ section#tel {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 565px;
-    width: 280px;
+    height: 567px;
+    width: 289px;
     background: url(../imagens/Samsung.png) no-repeat;    
 
 }iframe#tela {
@@ -36,7 +36,7 @@ section#tel {
     top: 62px;
     left: 14px;
     width: 251px;
-    height: 443px;
+    height: 442px;
 }
 section#socialbuttom {
     text-align: center;
@@ -51,10 +51,10 @@ section#socialbuttom img {
     box-sizing: border-box;
 }
 section#socialbuttom img:hover {
-    transform: translate( -2px, -2px);
+    transform: translate( -3px, -3px);
     border: 2px solid gray;
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.637);
-    transition: trasform .05s, border 0.2s;
+    transition: trasform 1s, border .2s;
 }
 iframe#frame {
     width: 251px;
