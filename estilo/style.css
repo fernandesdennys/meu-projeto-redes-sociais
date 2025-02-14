@@ -56,3 +56,7 @@ section#socialbuttom img:hover {
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.637);
     transition: trasform .05s, border 0.2s;
 }
+iframe#frame {
+    width: 251px;
+    height: 443px;
+}
